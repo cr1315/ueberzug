@@ -1,9 +1,8 @@
 name: Wheel builder
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [push, published, edited]
 
 jobs:
   build:
