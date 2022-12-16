@@ -2,7 +2,7 @@ name: Wheel builder
 
 on:
   release:
-    types: [published, edited]
+    types: [push, published, edited]
 
 jobs:
   build:
